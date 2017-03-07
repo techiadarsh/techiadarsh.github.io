@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset ="UTF-8">
-
+<meta name="viewport" content="width=40%, initial-scale=1">
 <style>
 form{
 border:0;
@@ -79,13 +79,20 @@ section3{
 ul img{
 display: block;
     margin: auto;
+    border-radius:50%;
+    position: center;
+border-radius: 50%;
 }
-border-radius:8px;
 }
+.mySlides {display:none;
+margin-bottom: :2px;
+margin-right: :2px;
+position: center;
+border-radius: :50%;}
 </style>
 
 
-<link type="text/css" rel="stylesheet"  href="z.css"/>
+<link type="text/css" rel="stylesheet"  href="ad.css"/>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 
@@ -96,6 +103,8 @@ border-radius:8px;
 </head>
 
 <body>
+
+
 <section>
 <div>
 <p class="animation">TechiAdarshRock!</p>
@@ -104,7 +113,7 @@ border-radius:8px;
 
 <ul>
 <form>
-<li><input type="text"  placeholder="Search.."></li>
+<li><input type="text"  placeholder="Search"></li>
 <li><a href="www.google.com" class="button" target="_blank">&nbsp;&nbsp;&nbsp;Search</a></li>
 </form>
   <li><a href="https://github.com/techiadarsh" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Github</a></li>
@@ -112,27 +121,32 @@ border-radius:8px;
   <li><a href="http://twitter.com/techiadarshrock">&nbsp;&nbsp;&nbsp;&nbsp;Twitter</a></li>
   <li><a href="about.asp">&nbsp;&nbsp;&nbsp;&nbsp;About</a></li>
 </ul>
-<div>
-<ul>
-<li><a align ="center" target="_blank" href="https://www.linkedin.com/in/adarsh-singh-2248a696/">
-    <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAlFAAAAJDVkMTczOTUzLTdhOWEtNDlhNy1iMWRkLTkwYjg0MjEzNWZkMQ.jpg" alt="Forest" max-width="100%" height="auto">
-  </a></li>
-<div>
-  <p style="text-align:" color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work hard, stay positive, and get up early. It's the best part of the day.
-</p>
-<a align ="center" target="_blank" href="https://www.linkedin.com/in/adarsh-singh-2248a696/">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/94/56/96/atop-the-mighty-trolltunga.jpg" alt="Forest" max-width="100%" height="auto">
-  </a>
-<p></p>
-</div>
-</div>
+<div class="w3" style="max-width:50%" >
+  <img align="center" class="mySlides" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/16681864_1262359497186498_2091256156873785195_n.jpg?oh=bea8783ecb3bf447031d0e6ee42f10cc&oe=593A170F" style="width:40%">
+  <img align="center" class="mySlides" src="https://media.licdn.com/media/AAEAAQAAAAAAAAlFAAAAJDVkMTczOTUzLTdhOWEtNDlhNy1iMWRkLTkwYjg0MjEzNWZkMQ.jpg" style="width:40%">
+  <img align="center" class="mySlides" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/13055409_1012210438868073_1985787793702137119_n.jpg?oh=92f139e09b5196987b93105c0848021b&oe=5963BA73" style="width:40%"></div>
+<script>
+var myIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
 <section>
 <p link href='http://fonts.googleapis.com/css?family=Open+Sans' img src="giphy.gif" alt="Smiley face" style="float" align="center" >“ If you want to go somewhere, goto is the best way to get there.” </p>
 <p style="text-align:center;"onclick="alert('welcome to my page');" color="red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adarsh Singh!</p>
 </section>
 <section>
-<a><img src="https://media2.giphy.com/media/qLkHqPuZcPtoQ/giphy.gif" alt="Smiley face" style="float:left;width:72px;height:72px;" class="blue" color="white">“I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing.“I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.” – Frank Herbert, Dune.</a>
+<a><img src="https://media2.giphy.com/media/qLkHqPuZcPtoQ/giphy.gif" alt="Smiley face" style="float:left;width:72px;height:72px;" class="blue" color="white">“I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing.“I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. Where the fear has gone there will be nothing. Only I will remain.” – Frank Herbert, Dune.</a>
 </section>
 <header class="container">
 
@@ -140,10 +154,7 @@ border-radius:8px;
 
 
 <footer>
-<p style="text-align: center;" ,color : "white" ,class="button" 
-onclick="alert('Call Your Dad');">
-&nbsp;&nbsp;&nbsp;&nbsp;Tech $upport:adarshsingh0205@gmail.com
-</p>
+
  </footer>
 
 </body>
