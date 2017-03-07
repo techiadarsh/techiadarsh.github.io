@@ -1,0 +1,151 @@
+body{
+
+height: 80%;
+padding-top:10px;
+margin: 0px;
+font-family: georgian,serif;
+align-items: center;
+
+background-image: url('http://www.mvminfotech.com/blog/wp-content/uploads/1920x1200-3.jpg.png');
+
+}
+section1{
+	
+	padding-top:140px;
+	font-family:Georgia,serif;
+	color: red;
+	font-size:25px;
+	text-decoration:none;
+font-weight:bold;
+font-style:italic;
+font-size:25px;
+font-color:red;
+	}
+	ul form li:hover{
+	cursor:pointer;}
+	section a:hover,:active{background-color:none;
+	font-decoration:none;
+	}
+ul{
+	font-family:georgian,serif;
+	font-size:4rem;
+	background-color:none;
+	
+}
+section{
+
+	font-family: 'Open Sans',sans-Sserif;
+	color:green;
+	color:red;
+}
+	h1 {
+    text-shadow: 2px 2px #FF0000;
+
+color: rgb(121,149,117)
+font-size: 56px;
+}
+h2{
+color: white;
+font-size: 56px;
+}
+.jumbotron {
+	display:fles;
+	align-items: right;
+	color: green;
+	height: 450px;
+}
+
+header{
+	padding: 20px 0;
+}
+.blue{
+	color:blue;
+}
+header.row,
+	footer.row{
+		display:flex;
+		align-items: center;
+	}
+div {
+
+
+color:white;
+font-size:100px;
+font-position:bottom-left;
+background-position:center;
+font-family: georgian, serif;
+}
+p{
+color:white;
+font-style:italic;
+font-weight:bold;
+font-size: 30px;
+font-family:'Quicksand', sans-serif;
+}
+{
+color:#00FFAA;
+font-size: 24px;
+text-decoration: none;
+}
+#footer{
+color: white;
+font-size: 35px;
+margin-bottom:50px;
+padding-bottom:170px;
+} 
+h1{
+	color:00FFFF;
+}
+a{ 
+color:white;
+font-size:35px;
+background-color:none;
+}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.animation{
+    
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Oswald';
+    font-size: 25px;
+	font-weight:bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+    animation: dj 10s infinite;
+    -moz-animation: dj 10s infinite;
+    -webkit-animation: dj 10s infinite;
+}
+@keyframes dj{
+    20%{
+        color: #001F4C;
+    }
+}
+@keyframes dj2{
+    40%{
+        color: #002966;
+    }
+}
+@keyframes dj3{
+    60%{
+        color: #003380;
+    }
+}
+@keyframes dj4{
+    80%{
+        color: #003D99;
+    }
+}
+@keyframes dj5{
+    100%{
+        color:#0047B2;
+    }
+}
