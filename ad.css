@@ -32,11 +32,16 @@ ul{
 	background-color:none;
 	
 }
+.mySlides{
+	position: center;
+	border-radius: 50%;
+}
 section{
 
 	font-family: 'Open Sans',sans-Sserif;
 	color:green;
 	color:red;
+clear:left;
 }
 	h1 {
     text-shadow: 2px 2px #FF0000;
