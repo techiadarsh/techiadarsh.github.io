@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset ="UTF-8">
+<meta name="viewport" content="width=40%, initial-scale=1">
+<style>
+form{
+border:0;
+padding:0px;}
+h1{
+background-color:red;
+}
+p{
+background-color: light-blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+	
+    
+}
+ul li{
+}
+div ul li{background-color:none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: caption;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: sandbox;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+}
+
+.active {
+    background-color: none;
+}
+input[type=text] {
+top:0;
+border:0px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 25px;
+	font-color: #FF0000;
+    background-color: redorange;
+    background-image: url('www.google.com');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+section3{
+    text-shadow: 2px 2px limegreen;
+    font-size:10px;
+	}
+	.button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+  
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ul img{
+display: block;
+    margin: auto;
+    border-radius:50%;
+    position: center;
+border-radius: 50%;
+}
+}
+.mySlides {display:none;
+margin-bottom: :2px;
+margin-right: :2px;
+position: center;
+border-radius: :50%;}
+div #a1{
+margin:5px;
+padding:4px;
+border: 1px solid color;
+}
+</style>
+
+
+<link type="text/css" rel="stylesheet"  href="ad.css"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+
+<title>Adarsh</title>
+
+
+
+</head>
+
+<body>
+
+
+<section>
+<div>
+<p class="animation">TechiAdarshRock!</p>
+</div>
+</section>
+
+<ul>
+<form>
+<li><input type="text"  placeholder="Search" width="30%"></li>
+</form>
+  <li><a href="https://github.com/techiadarsh" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Github</a></li>
+  <li><a href="https://www.linkedin.com/in/adarsh-singh-2248a696/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Linked In</a></li>
+  <li><a href="http://twitter.com/techiadarshrock">&nbsp;&nbsp;&nbsp;&nbsp;Twitter</a></li>
+  <li><a href="about.asp">&nbsp;&nbsp;&nbsp;&nbsp;About</a></li>
+</ul>
+<div class="w3" style="max-width:50%" >
+  <img align="center" class="mySlides" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/16681864_1262359497186498_2091256156873785195_n.jpg?oh=bea8783ecb3bf447031d0e6ee42f10cc&oe=593A170F" style="width:40%">
+  <img align="center" class="mySlides" src="https://media.licdn.com/media/AAEAAQAAAAAAAAlFAAAAJDVkMTczOTUzLTdhOWEtNDlhNy1iMWRkLTkwYjg0MjEzNWZkMQ.jpg" style="width:40%">
+  <img align="center" class="mySlides" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-9/13055409_1012210438868073_1985787793702137119_n.jpg?oh=92f139e09b5196987b93105c0848021b&oe=5963BA73" style="width:40%">
+  </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+<div>
+<p align="center" class="a1">“ If you want to go somewhere, goto is the best way to get there.” </p>
+<p style="text-align:center;"onclick="alert('welcome to my page');" color="red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adarsh Singh!</p>
+</div>
+<section>
+<a><img src="https://media2.giphy.com/media/qLkHqPuZcPtoQ/giphy.gif" alt="Smiley face" style="float:center;width:72px;height:72px;" class="blue" color="white"></a>
+<a>follow me</a>
+</section>
+<header class="container">
+
+<nav class="col-sm-8 text-right">
+
+
+<footer>
+
+ </footer>
+
+</body>
+
+</html>

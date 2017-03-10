@@ -22,6 +22,7 @@ font-size:25px;
 font-color:red;
 	}
 	ul form li:hover{
+     width:10%;
 	cursor:pointer;}
 	section a:hover,:active{background-color:none;
 	font-decoration:none;
@@ -76,7 +77,6 @@ div {
 
 color:white;
 font-size:100px;
-font-position:bottom-left;
 background-position:center;
 font-family: georgian, serif;
 }
@@ -153,14 +153,15 @@ background-color:none;
     100%{
         color:#0047B2;
     }
-}@media only screen and (max-device-width: 480px) {
+}
+@media  (max-device-width: 981px) {
 		div#wrapper {
 			width: 400px;
 		}
 
 		div#header {
 			background-image: url(media-queries-phone.jpg);
-			height: 93px;
+			height: 73px;
 			position: relative;
 		}
 
@@ -177,4 +178,9 @@ background-color:none;
 			float:none;
 			width: auto;
 		}
+	}
+	div #w3{margin-top:2px;
+	margin-bottom:2px;
+	margin-left:20px;
+		align=center;
 	}
