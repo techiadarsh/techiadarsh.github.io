@@ -17,11 +17,11 @@ body{
 .navbar-collapse a{
 border: 1px solid gray;
 	text-align: center;
-	color: white;
+	color: 	#00FFFF;
 }
 
 .navbar-nav {
-	background-color: #00FF00;
+	background-color: orange;
 }
 /*End Header*/
 
@@ -33,11 +33,11 @@ border: 1px solid gray;
 }
 
 #main-content .row{
-	background-color: #58a9b2;
+	background-color:rgb(0,255,0);
 }
 
 #main-content h2, #main-content h3, #main-content p{
-	color: #ffffff;
+	color: #FF0000;
 }
 
 #main-content h3{
