@@ -1,71 +1,169 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-	
-	<title>Module 3 Solution</title>
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+  </head>
 <body>
-    <header class="nav-header">
+
+  <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
+
           <div class="navbar-brand">
-            <p class="nav-brand">Food, LLC</p>
+            <a href="index.html"><h1>Food, LLC</h1></a>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
         </div>
-       <!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" class="visible-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#" class="visible-xs">Beef</a>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="visible-xs">Sushi</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
   </header>
-	<h1 class="text-center">Our Menu</h1>
 
-	<div class="row container container-fluid">
-	<div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div">
-		<section>
-		<div id="chicken">
-			Chicken
-		</div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
-		<section>
-		<div id="beef">
-			Beef
-		</div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
-		<section>
-		<div id="sushi">
-			Sushi
-		</div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
-		</p>
-		</section>
-	</div>
-	</div>
 
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-  	<script src="js/script.js"></script>
+  <div>
+    <h1 class="text-center">Our Menu</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div id="textstuff">
+            <h2 class="text-center">Chicken</h2>
+            <p>
+              Full of vexation come I, with complaint
+              Against my child, my daughter Hermia.
+              Stand forth, Demetrius. My noble lord,
+              This man hath my consent to marry her.
+              Stand forth, Lysander: and my gracious duke,
+              This man hath bewitch'd the bosom of my child;
+              Thou, thou, Lysander, thou hast given her rhymes,
+              And interchanged love-tokens with my child:
+              Thou hast by moonlight at her window sung,
+              With feigning voice verses of feigning love,
+              And stolen the impression of her fantasy
+              With bracelets of thy hair, rings, gawds, conceits,
+              Knacks, trifles, nosegays, sweetmeats, messengers
+              Of strong prevailment in unharden'd youth:
+              With cunning hast thou filch'd my daughter's heart,
+              Turn'd her obedience, which is due to me,
+              To stubborn harshness: and, my gracious duke,
+              Be it so she; will not here before your grace
+              Consent to marry with Demetrius,
+              I beg the ancient privilege of Athens,
+              As she is mine, I may dispose of her:
+              Which shall be either to this gentleman
+              Or to her death, according to our law
+              Immediately provided in that case.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div id="textstuff">
+            <h2 class="text-center">Beef</h2>
+            <p>
+              Full of vexation come I, with complaint
+              Against my child, my daughter Hermia.
+              Stand forth, Demetrius. My noble lord,
+              This man hath my consent to marry her.
+              Stand forth, Lysander: and my gracious duke,
+              This man hath bewitch'd the bosom of my child;
+              Thou, thou, Lysander, thou hast given her rhymes,
+              And interchanged love-tokens with my child:
+              Thou hast by moonlight at her window sung,
+              With feigning voice verses of feigning love,
+              And stolen the impression of her fantasy
+              With bracelets of thy hair, rings, gawds, conceits,
+              Knacks, trifles, nosegays, sweetmeats, messengers
+              Of strong prevailment in unharden'd youth:
+              With cunning hast thou filch'd my daughter's heart,
+              Turn'd her obedience, which is due to me,
+              To stubborn harshness: and, my gracious duke,
+              Be it so she; will not here before your grace
+              Consent to marry with Demetrius,
+              I beg the ancient privilege of Athens,
+              As she is mine, I may dispose of her:
+              Which shall be either to this gentleman
+              Or to her death, according to our law
+              Immediately provided in that case.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div id="textstuff">
+            <h2 class="text-center">Sushi</h2>
+            <p>
+              Full of vexation come I, with complaint
+              Against my child, my daughter Hermia.
+              Stand forth, Demetrius. My noble lord,
+              This man hath my consent to marry her.
+              Stand forth, Lysander: and my gracious duke,
+              This man hath bewitch'd the bosom of my child;
+              Thou, thou, Lysander, thou hast given her rhymes,
+              And interchanged love-tokens with my child:
+              Thou hast by moonlight at her window sung,
+              With feigning voice verses of feigning love,
+              And stolen the impression of her fantasy
+              With bracelets of thy hair, rings, gawds, conceits,
+              Knacks, trifles, nosegays, sweetmeats, messengers
+              Of strong prevailment in unharden'd youth:
+              With cunning hast thou filch'd my daughter's heart,
+              Turn'd her obedience, which is due to me,
+              To stubborn harshness: and, my gracious duke,
+              Be it so she; will not here before your grace
+              Consent to marry with Demetrius,
+              I beg the ancient privilege of Athens,
+              As she is mine, I may dispose of her:
+              Which shall be either to this gentleman
+              Or to her death, according to our law
+              Immediately provided in that case.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
