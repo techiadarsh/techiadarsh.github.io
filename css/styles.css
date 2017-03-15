@@ -139,3 +139,18 @@ hr {
   color: white;
   font-size: 1.2em;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color:gray;
+}
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top:-30px;
+}
+.navbar-default .navbar-toggle{
+	border-color:#ddd;
+}
+.navbar-toggle:focus{
+	outline:0;
+}
+.navbar-toggle{
+	position:relative;}
